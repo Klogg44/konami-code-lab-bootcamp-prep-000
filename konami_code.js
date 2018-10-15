@@ -13,8 +13,8 @@ const codes = [
 
 let index = 0
 
-function init() {
 
+function init() {
 
   function konamiListener(e) {
     const key = e.key
