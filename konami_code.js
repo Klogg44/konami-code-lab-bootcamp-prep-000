@@ -22,9 +22,11 @@ function init() {
 
     if (key === codes[index]) {
       index++
+    } else {
+      index = 0
     }
 
-    console.log(index) 
+    console.log(index)
   }
 
   document.body.addEventListener('keydown', konamiListener)
