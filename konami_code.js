@@ -11,6 +11,14 @@ const codes = [
   "a"
 ];
 
+let index = 0
+
 function init() {
-  // your code here
+
+
+  function onKeyDown(e) {
+    
+  }
+  
+  document.body.addEventListener()
 }
