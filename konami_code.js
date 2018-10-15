@@ -16,9 +16,10 @@ let index = 0
 function init() {
 
 
-  function onKeyDown(e) {
-    
+  function konamiListener(e) {
+    const key = e.key
+    console.log(key)
   }
-  
-  document.body.addEventListener()
+
+  document.body.addEventListener('keydown', konamiListener)
 }
