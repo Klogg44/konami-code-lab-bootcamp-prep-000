@@ -19,6 +19,12 @@ function init() {
   function konamiListener(e) {
     const key = e.key
     console.log(key)
+
+    if (key === codes[index]) {
+      index++
+    }
+
+    console.log(index) 
   }
 
   document.body.addEventListener('keydown', konamiListener)
