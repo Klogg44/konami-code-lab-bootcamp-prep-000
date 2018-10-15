@@ -26,6 +26,10 @@ function init() {
       index = 0
     }
 
+    if (index === codes.length) {
+      alert("yes")
+    }
+
     console.log(index)
   }
 
